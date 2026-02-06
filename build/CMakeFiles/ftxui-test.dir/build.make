@@ -69,29 +69,34 @@ include CMakeFiles/ftxui-test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ftxui-test.dir/flags.make
 
-CMakeFiles/ftxui-test.dir/main.cpp.o: CMakeFiles/ftxui-test.dir/flags.make
-CMakeFiles/ftxui-test.dir/main.cpp.o: /home/ondra/Documents/GitHub/ftxui-test/main.cpp
-CMakeFiles/ftxui-test.dir/main.cpp.o: CMakeFiles/ftxui-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ondra/Documents/GitHub/ftxui-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ftxui-test.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ftxui-test.dir/main.cpp.o -MF CMakeFiles/ftxui-test.dir/main.cpp.o.d -o CMakeFiles/ftxui-test.dir/main.cpp.o -c /home/ondra/Documents/GitHub/ftxui-test/main.cpp
+CMakeFiles/ftxui-test.dir/src/main.cpp.o: CMakeFiles/ftxui-test.dir/flags.make
+CMakeFiles/ftxui-test.dir/src/main.cpp.o: /home/ondra/Documents/GitHub/ftxui-test/src/main.cpp
+CMakeFiles/ftxui-test.dir/src/main.cpp.o: CMakeFiles/ftxui-test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ondra/Documents/GitHub/ftxui-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ftxui-test.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ftxui-test.dir/src/main.cpp.o -MF CMakeFiles/ftxui-test.dir/src/main.cpp.o.d -o CMakeFiles/ftxui-test.dir/src/main.cpp.o -c /home/ondra/Documents/GitHub/ftxui-test/src/main.cpp
 
-CMakeFiles/ftxui-test.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ftxui-test.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ondra/Documents/GitHub/ftxui-test/main.cpp > CMakeFiles/ftxui-test.dir/main.cpp.i
+CMakeFiles/ftxui-test.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ftxui-test.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ondra/Documents/GitHub/ftxui-test/src/main.cpp > CMakeFiles/ftxui-test.dir/src/main.cpp.i
 
-CMakeFiles/ftxui-test.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ftxui-test.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ondra/Documents/GitHub/ftxui-test/main.cpp -o CMakeFiles/ftxui-test.dir/main.cpp.s
+CMakeFiles/ftxui-test.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ftxui-test.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ondra/Documents/GitHub/ftxui-test/src/main.cpp -o CMakeFiles/ftxui-test.dir/src/main.cpp.s
 
 # Object files for target ftxui-test
 ftxui__test_OBJECTS = \
-"CMakeFiles/ftxui-test.dir/main.cpp.o"
+"CMakeFiles/ftxui-test.dir/src/main.cpp.o"
 
 # External object files for target ftxui-test
 ftxui__test_EXTERNAL_OBJECTS =
 
-ftxui-test: CMakeFiles/ftxui-test.dir/main.cpp.o
+ftxui-test: CMakeFiles/ftxui-test.dir/src/main.cpp.o
 ftxui-test: CMakeFiles/ftxui-test.dir/build.make
+ftxui-test: _deps/ftxui-build/libftxui-screen.a
+ftxui-test: _deps/ftxui-build/libftxui-dom.a
+ftxui-test: _deps/ftxui-build/libftxui-component.a
+ftxui-test: _deps/ftxui-build/libftxui-dom.a
+ftxui-test: _deps/ftxui-build/libftxui-screen.a
 ftxui-test: CMakeFiles/ftxui-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ondra/Documents/GitHub/ftxui-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ftxui-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ftxui-test.dir/link.txt --verbose=$(VERBOSE)

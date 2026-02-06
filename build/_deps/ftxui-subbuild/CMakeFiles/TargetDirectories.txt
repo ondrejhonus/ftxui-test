@@ -1,0 +1,3 @@
+/home/ondra/Documents/GitHub/ftxui-test/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.dir
+/home/ondra/Documents/GitHub/ftxui-test/build/_deps/ftxui-subbuild/CMakeFiles/edit_cache.dir
+/home/ondra/Documents/GitHub/ftxui-test/build/_deps/ftxui-subbuild/CMakeFiles/rebuild_cache.dir

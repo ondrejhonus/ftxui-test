@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /home/ondra/Documents/GitHub/ftxui-test/build/_deps/ftxui-src/include
 
 CXX_FLAGS = -g
 

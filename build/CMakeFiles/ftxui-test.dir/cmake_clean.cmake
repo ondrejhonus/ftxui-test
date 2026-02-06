@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ftxui-test.dir/main.cpp.o"
-  "CMakeFiles/ftxui-test.dir/main.cpp.o.d"
+  "CMakeFiles/ftxui-test.dir/src/main.cpp.o"
+  "CMakeFiles/ftxui-test.dir/src/main.cpp.o.d"
   "ftxui-test"
   "ftxui-test.pdb"
 )

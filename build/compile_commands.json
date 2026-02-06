@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/ondra/Documents/GitHub/ftxui-test/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ftxui-test.dir/main.cpp.o -c /home/ondra/Documents/GitHub/ftxui-test/main.cpp",
+  "file": "/home/ondra/Documents/GitHub/ftxui-test/main.cpp",
+  "output": "CMakeFiles/ftxui-test.dir/main.cpp.o"
+}
+]

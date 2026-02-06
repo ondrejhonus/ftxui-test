@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/ftxui-test.dir/main.cpp.o" -o ftxui-test 
